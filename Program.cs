@@ -1,0 +1,36 @@
+﻿using System;
+
+namespace Revisao
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Informe a Opção desejada:");
+            Console.WriteLine("1 - Inserir novo aluno");
+            Console.WriteLine("2 - Listar Alunos");
+            Console.WriteLine("3 - Calcular Média geral");
+            Console.WriteLine("4 - Finaliza");
+            Console.WriteLine();
+
+            string opcaoUsuario = Console.ReadLine();
+
+            while (opcaoUsuario.ToUpper() != "X"){
+                switch(opcaoUsuario){
+                    case "1":
+
+                        break;
+                    case "2":
+
+                        break;
+                    case "3":
+
+                        break;
+                    default:
+
+                    throw new ArgumentOutOfRangeException();
+                }
+            }
+        }
+    }
+}
